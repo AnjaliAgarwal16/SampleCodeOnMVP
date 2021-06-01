@@ -1,0 +1,8 @@
+
+<resources>
+<string name="app_name">MVP Architecture</string>
+<string name="buttonText">Navigate to the next Page</string>
+<string name="heading">MVP Architecture Pattern</string>
+<string name="subHeading">Just a sample template</string>
+<string name="description">Description</string>
+</resources>
