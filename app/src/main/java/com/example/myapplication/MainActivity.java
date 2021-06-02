@@ -63,14 +63,14 @@ public class MainActivity extends AppCompatActivity implements Contract.View {
     }
 
     @Override
-    // method to display the Course Detail TextView
+
     public void showProgress() {
         progressBar.setVisibility(View.VISIBLE);
         textView.setVisibility(View.INVISIBLE);
     }
 
     @Override
-    // method to hide the Course Detail TextView
+    
     public void hideProgress() {
         progressBar.setVisibility(GONE);
         textView.setVisibility(View.VISIBLE);
@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity implements Contract.View {
 
     @Override
     // method to set random string
-    // in the Course Detail TextView
+    
     public void setString(String string) {
         textView.setText(string);
     }
